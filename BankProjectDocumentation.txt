@@ -1,0 +1,58 @@
+  							 GRAMIN BANK MANAGEMENT SYSTEM
+
+Product : Banking Management System
+
+Services Offered :
+1. Registration of the User.
+2. Login to your account.
+3. Deposit Money into your account.
+4. Withdraw Money from your account.
+5. Check Balance of your account.
+6. Account Details
+7. Log out
+8. Deactivate your account.
+
+Class Design:
+Services--------> Login -------> Main
+Address----->New User-----------------------> Main
+
+Storage:
+Linked List and Files(storage.txt ).
+
+Detailed Description of Services:
+
+Main Menu has 2 options - 1. New User Registration (Create new Account).
+			  2. Log In (Existing User Serivces).
+                                                      3. Save and Exit.
+
+1. Create Account - To Create a new account User have to provide some essential information as-
+		    	1. Name
+			2. Address
+			3. User have to create a Phone No., using which user can log in to the system for further operations.
+			4. User have to create a PIN, using which user can log in to the system for further operations.
+			5. Phone Number
+			6. Adhaar Card Number
+			7. PAN
+			8. Initial Deposit
+
+2. Login - To login into his/her account User have to enter the Phone no., which was created at the time of registration. Alongwith Phone No. user also has to enter the correct PIN, which 
+           he/she has created at time of registration.
+ 
+After Logging in successfully, User will be displayed a menu offering all the services defined above, he/she can choose from the list.
+
+3. Deposit - User has to enter the amount he wants to deposit and that amount will be added to his total balance.
+
+4. Withdraw - User has to enter the amount he wants to withdraw and that amount will be deducted from his total balance, if user does not have sufficient funds, a message will be displayed
+	      regarding the same.
+
+5. Check Balance - User Account Balance will be displayed.
+
+6. Account Details - All the User information alongwith account number, IFSC code and bank name will be displayed on the screen.
+
+7. Log Out - User session will be ended and he will be redirected to main window.
+
+8. Deactivate - User details will be deleted from Bank's Database and his all operations will be freezed.
+
+ 
+  
+
